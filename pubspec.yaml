@@ -1,0 +1,182 @@
+name: flutter_meal_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  provider:
+  flutter_launcher_icons: ^0.8.1
+  shared_preferences:
+  flutter_colorpicker: 0.3.4
+
+
+flutter_icons:
+  android: true
+  image_path: "dev_assets/food.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/how_to_use/how_to_use1.jpg
+    - assets/images/how_to_use/how_to_use2.jpg
+    - assets/images/how_to_use/how_to_use3.jpg
+    - assets/images/how_to_use/how_to_use4.jpg
+    - assets/images/memes/memes1.jpg
+    - assets/images/memes/memes2.jpg
+    - assets/images/memes/memes3.jpg
+    - assets/images/memes/memes4.jpg
+    - assets/images/memes/memes5.jpg
+    - assets/images/memes/memes6.jpg
+    - assets/images/memes/memes7.jpg
+    - assets/images/memes/memes8.jpg
+    - assets/images/memes/memes9.jpg
+    - assets/images/memes/memes10.jpg
+    - assets/images/memes/memes11.jpg
+    - assets/images/memes/memes12.jpg
+    - assets/images/memes/memes13.jpg
+    - assets/images/memes/memes14.jpg
+    - assets/images/memes/memes15.jpg
+    - assets/images/memes/memes16.jpg
+    - assets/images/memes/memes17.jpg
+    - assets/images/memes/memes18.jpg
+    - assets/images/memes/memes19.jpg
+    - assets/images/memes/memes20.jpg
+    - assets/images/memes/memes21.jpg
+    - assets/images/memes/memes22.jpg
+    - assets/images/memes/memes23.jpg
+    - assets/images/memes/memes24.jpg
+    - assets/images/memes/memes25.jpg
+    - assets/images/memes/memes26.jpg
+    - assets/images/memes/memes27.jpg
+    - assets/images/memes/memes28.jpg
+    - assets/images/memes/memes29.jpg
+    - assets/images/memes/memes30.jpg
+    - assets/images/memes/memes31.jpg
+    - assets/images/memes/memes32.jpg
+    - assets/images/memes/memes33.jpg
+    - assets/images/memes/memes34.jpg
+    - assets/images/memes/memes35.jpg
+    - assets/images/memes/memes36.jpg
+    - assets/images/memes/memes37.jpg
+    - assets/images/memes/memes38.jpg
+    - assets/images/memes/memes39.jpg
+    - assets/images/memes/memes40.jpg
+    - assets/images/memes/memes41.jpg
+    - assets/images/memes/memes42.jpg
+    - assets/images/memes/memes43.jpg
+    - assets/images/memes/memes44.jpg
+    - assets/images/memes/memes45.jpg
+    - assets/images/memes/memes46.jpg
+    - assets/images/memes/memes47.jpg
+    - assets/images/memes/memes48.jpg
+    - assets/images/memes/memes49.jpg
+    - assets/images/memes/memes50.jpg
+    - assets/images/memes/memes51.jpg
+    - assets/images/memes/memes52.jpg
+    - assets/images/memes/memes53.jpg
+    - assets/images/memes/memes54.jpg
+    - assets/images/memes/memes55.jpg
+    - assets/images/memes/memes56.jpg
+    - assets/images/memes/memes57.jpg
+    - assets/images/memes/memes58.jpg
+    - assets/images/memes/memes59.jpg
+    - assets/images/memes/memes60.jpg
+    - assets/images/memes/memes61.jpg
+    - assets/images/memes/memes62.jpg
+    - assets/images/memes/memes63.jpg
+    - assets/images/memes/memes64.jpg
+    - assets/images/memes/memes65.jpg
+    - assets/images/memes/memes66.jpg
+    - assets/images/memes/memes67.jpg
+    - assets/images/memes/memes68.jpg
+    - assets/images/memes/memes69.jpg
+    - assets/images/memes/memes70.jpg
+    - assets/images/memes/memes71.jpg
+    - assets/images/memes/memes72.jpg
+    - assets/images/memes/memes73.jpg
+    - assets/images/memes/memes74.jpg
+    - assets/images/memes/memes75.jpg
+    - assets/images/memes/memes76.jpg
+    - assets/images/memes/memes77.jpg
+    - assets/images/memes/memes78.jpg
+    - assets/images/memes/memes79.jpg
+    - assets/images/memes/memes80.jpg
+    - assets/images/memes/memes81.jpg
+    - assets/images/memes/memes82.jpg
+    - assets/images/memes/memes83.jpg
+    - assets/images/memes/memes84.jpg
+    - assets/images/memes/memes85.jpg
+    - assets/images/memes/memes86.jpg
+    - assets/images/memes/memes87.jpg
+    - assets/images/memes/memes88.jpg
+    - assets/images/memes/memes89.jpg
+    - assets/images/memes/memes90.jpg
+    - assets/images/memes/memes91.jpg
+    - assets/images/memes/memes92.jpg
+    - assets/images/memes/memes93.jpg
+    - assets/images/memes/memes94.jpg
+    - assets/images/memes/memes95.jpg
+    - assets/images/memes/memes96.jpg
+    - assets/images/memes/memes97.jpg
+    - assets/images/memes/memes98.jpg
+    - assets/images/memes/memes99.jpg
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway-Black.ttf
+          weight: 900
+    - family: RobotoCondensed
+      fonts:
+        - asset: assets/fonts/RobotoCondensed-Regular.ttf
+        - asset: assets/fonts/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoCondensed-Italic.ttf
+          style: italic
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
